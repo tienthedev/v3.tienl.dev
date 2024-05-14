@@ -21,7 +21,7 @@ const Home: React.FC = () => {
 
   return (
       <main className={`animate-fadeUp`}>
-        <h1>Welcome to tienthedev's portfolio</h1>
+        <h1>Welcome to tienthedev</h1>
       </main>
   );
 };
