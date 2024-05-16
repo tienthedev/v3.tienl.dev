@@ -26,3 +26,15 @@ body {
     text-wrap: balance;
   }
 }
+
+.mobile-nav {
+  @apply flex justify-center items-center h-screen md:hidden fixed top-0 py-10 w-auto  bg-primary-light duration-300;
+}
+
+nav li a {
+  @apply px-4 py-5 text-xl;
+}
+
+nav li a:hover {
+  color: #FFD4D4;
+}

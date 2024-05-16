@@ -9,7 +9,7 @@ const Loader: React.FC = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
             setFadeOut(true);
-        }, 4000); // 4 seconds delay before fade out
+        }, 2000); // 4 seconds delay before fade out
 
         return () => clearTimeout(timer);
     }, []);

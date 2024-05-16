@@ -1,6 +1,6 @@
 // src/pages/index.tsx
 'use client';
-
+import Navbar from "@/components/Navbar/Navbar";
 import React, { useEffect, useState } from 'react';
 import Loader from '../components/Loader/Loader';
 
@@ -10,7 +10,7 @@ const Home: React.FC = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 6000); // 6 seconds total (4 seconds fade up + 2 seconds fade out)
+    }, 3000); // 4 seconds total (2 seconds fade up + 2 seconds fade out)
 
     return () => clearTimeout(timer);
   }, []);
@@ -20,8 +20,9 @@ const Home: React.FC = () => {
   }
 
   return (
-      <main className={`animate-fadeUp`}>
-        <h1>Welcome to tienthedev</h1>
+      <main>
+        <Navbar />
+        <h1 >Welcome to tienthedev</h1>
       </main>
   );
 };

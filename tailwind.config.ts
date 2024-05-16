@@ -16,13 +16,19 @@ const config: Config = {
       },
       colors: {
         primary: '#121234FF',
+        "primary-light" : '#1c1c46',
+
         secondary: '#0094C6',
         tertiary: '#005E7C',
         quaternary: '#000022',
       },
       keyframes: {
         fadeUp: {
-          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '0%': { opacity: '0', transform: 'translateY(30px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        fadeDown: {
+          '0%': { opacity: '0', transform: 'translateY(-10px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
         fadeOut: {
@@ -31,8 +37,9 @@ const config: Config = {
         },
       },
       animation: {
-        fadeUp: 'fadeUp 2s ease-out',
-        fadeOut: 'fadeOut 2s ease-out',
+        fadeDown: 'fadeDown 1s',
+        fadeUp: 'fadeUp 1s ',
+        fadeOut: 'fadeOut 1s',
       },
     },
   },
