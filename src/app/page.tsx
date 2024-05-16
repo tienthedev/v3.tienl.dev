@@ -3,6 +3,8 @@
 import Navbar from "@/components/Navbar/Navbar";
 import React, { useEffect, useState } from 'react';
 import Loader from '../components/Loader/Loader';
+import Hero from '../components/Hero/Hero';
+
 
 const Home: React.FC = () => {
   const [loading, setLoading] = useState(true);
@@ -22,7 +24,7 @@ const Home: React.FC = () => {
   return (
       <main>
         <Navbar />
-        <h1 >Welcome to tienthedev</h1>
+        <Hero />
       </main>
   );
 };

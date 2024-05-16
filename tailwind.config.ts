@@ -2,6 +2,7 @@ import type { Config } from 'tailwindcss';
 
 // @ts-ignore
 // @ts-ignore
+// @ts-ignore
 const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -37,13 +38,35 @@ const config: Config = {
         },
       },
       animation: {
-        fadeDown: 'fadeDown 1s',
-        fadeUp: 'fadeUp 1s ',
-        fadeOut: 'fadeOut 1s',
+        fadeDown: 'fadeDown 1s ease-out forwards',
+        fadeUp: 'fadeUp 1s ease-out forwards',
+        fadeOut: 'fadeOut 1s ease-out forwards',
+      },
+      animationDelay: {
+        0: '0ms',
+        200: '200ms',
+        400: '400ms',
+        600: '600ms',
+        800: '800ms',
+        1000: '1000ms',
+        1200: '1200ms',
+        1400: '1400ms',
+        1600: '1600ms',
+        1800: '1800ms',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities, theme }: { addUtilities: any, theme: any }) {
+      const delays = theme('animationDelay') || {};
+      const utilities = Object.entries(delays).map(([key, value]) => ({
+        [`.delay-${key}`]: {
+          'animation-delay': value,
+        },
+      }));
+      addUtilities(utilities, ['responsive', 'hover']);
+    },
+  ],
 };
 
 export default config;

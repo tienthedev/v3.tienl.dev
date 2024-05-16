@@ -26,6 +26,10 @@ body {
     text-wrap: balance;
   }
 }
+.hidden-initially{
+  opacity: 0;
+}
+
 
 .mobile-nav {
   @apply px-20 flex justify-center items-center h-screen md:hidden fixed top-0  w-auto  bg-primary-light duration-300;
@@ -44,3 +48,5 @@ body {
 nav li a:hover {
   color: #FFD4D4;
 }
+
+
