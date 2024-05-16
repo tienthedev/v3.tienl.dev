@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
     return (
         <div className="h-auto bg-primary flex justify-between px-5 py-5 text-white fixed w-full">
             <a href="/"
-               className={`hover:transform hover:-translate-x-1 hover:-translate-y-1 transition-transform duration-300 ease-in-out font-extrabold text-5xl text-secondary tracking-tighter ${leagueSpartan.className}`}>
+               className={`hover:transform hover:-translate-x-1 hover:-translate-y-1 transition-transform duration-300 ease-in-out font-extrabold text-5xl text-secondary tracking-tighter animate-fadeUp ${leagueSpartan.className}`}>
                 tienthedev.
             </a>
 
