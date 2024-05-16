@@ -12,35 +12,41 @@ const Navbar: React.FC = () => {
     const handleLinkClick = () => setToggle(false);
     return (
         <div className="h-auto bg-primary flex justify-between px-5 py-5 text-white fixed w-full">
-            <a href={"/"}
-               className={`animate-fadeUp font-extrabold text-5xl text-secondary tracking-tighter ${leagueSpartan.className}`}>
+            <a href="/"
+               className={`hover:transform hover:-translate-x-1 hover:-translate-y-1 transition-transform duration-300 ease-in-out font-extrabold text-5xl text-secondary tracking-tighter ${leagueSpartan.className}`}>
                 tienthedev.
             </a>
 
+
             {/* Desktop Nav */}
-            <nav className=" hidden md:block">
-                <ul className="flex">
+            <nav className="desktop-nav pt-5 right-20 w-fit hidden md:block">
+                <ol className="flex list-decimal">
                     <li>
                         <a href="/" onClick={handleLinkClick}>
-                            I. About
+                            About
                         </a>
                     </li>
                     <li>
                         <a href="/" onClick={handleLinkClick}>
-                            II. Experience
+                            Experience
                         </a>
                     </li>
                     <li>
                         <a href="/" onClick={handleLinkClick}>
-                            III. Projects
+                            Projects
                         </a>
                     </li>
                     <li>
                         <a href="/" onClick={handleLinkClick}>
-                            IV. Contact
+                            Contact
                         </a>
                     </li>
-                </ul>
+                    <li>
+                        <a href="/" onClick={handleLinkClick}>
+                            Résume
+                        </a>
+                    </li>
+                </ol>
             </nav>
 
 
@@ -48,29 +54,33 @@ const Navbar: React.FC = () => {
                 {!toggle ? <AiOutlineMenu size={30}/> : <AiOutlineClose size={30}/>}
             </button>
             <nav className={!toggle ? "mobile-nav right-[-100%]" : "mobile-nav right-0"}>
-                <ul className="flex flex-col">
+                <ol className="flex flex-col list-decimal list-inside">
                     <li>
                         <a href="/#about" onClick={handleLinkClick}>
-                            I. About
+                            About
                         </a>
                     </li>
                     <li>
                         <a href="/#projects" onClick={handleLinkClick}>
-                            II. Experience
+                            Experience
                         </a>
                     </li>
                     <li>
                         <a href="/#experience" onClick={handleLinkClick}>
-                            III. Projects
+                            Projects
                         </a>
                     </li>
                     <li>
                         <a href="/#contact" onClick={handleLinkClick}>
-                            IV. Contact
+                            Contact
                         </a>
                     </li>
-
-                </ul>
+                    <li>
+                        <a href="/" onClick={handleLinkClick}>
+                            Résume
+                        </a>
+                    </li>
+                </ol>
             </nav>
 
 

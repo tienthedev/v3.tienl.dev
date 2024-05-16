@@ -28,12 +28,18 @@ body {
 }
 
 .mobile-nav {
-  @apply flex justify-center items-center h-screen md:hidden fixed top-0 py-10 w-auto  bg-primary-light duration-300;
+  @apply px-20 flex justify-center items-center h-screen md:hidden fixed top-0  w-auto  bg-primary-light duration-300;
+}
+.mobile-nav li a{
+  @apply leading-loose  text-xl;
+
 }
 
-nav li a {
-  @apply px-4 py-5 text-xl;
+
+.desktop-nav li {
+  @apply mx-5  text-xs;
 }
+
 
 nav li a:hover {
   color: #FFD4D4;
