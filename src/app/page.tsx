@@ -1,4 +1,3 @@
-// src/pages/index.tsx
 'use client';
 import Navbar from "@/components/Navbar/Navbar";
 import React, { useEffect, useState } from 'react';
