@@ -4,6 +4,8 @@ import Navbar from "@/components/Navbar/Navbar";
 import React, { useEffect, useState } from 'react';
 import Loader from '../components/Loader/Loader';
 import Hero from '../components/Hero/Hero';
+import About from "@/components/About/About";
+import Footer from "@/components/Footer/Footer";
 
 
 const Home: React.FC = () => {
@@ -25,6 +27,8 @@ const Home: React.FC = () => {
       <main>
         <Navbar />
         <Hero />
+          <About />
+        <Footer />
       </main>
   );
 };
