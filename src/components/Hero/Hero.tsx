@@ -1,4 +1,3 @@
-'use client';
 import React from 'react';
 import {JetBrains_Mono, League_Spartan} from "next/font/google";
 

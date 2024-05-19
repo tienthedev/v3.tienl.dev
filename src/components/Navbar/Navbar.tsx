@@ -22,8 +22,8 @@ const Navbar: React.FC = () => {
             {/* Desktop Nav */}
             <nav className="desktop-nav pt-5 right-20 w-fit hidden md:block">
                 <ol className="flex list-decimal">
-                    <li className="hidden-initially animate-fadeUp delay-0">
-                        <a href="/" onClick={handleLinkClick}>
+                    <li className="hidden-initially animate-fadeUp delay-0 scroll-smooth">
+                        <a href="/#about" onClick={handleLinkClick}>
                             About
                         </a>
                     </li>
@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
                         </a>
                     </li>
                     <li className="hidden-initially animate-fadeUp delay-600">
-                        <a href="/" onClick={handleLinkClick}>
+                        <a href="/#footer" onClick={handleLinkClick}>
                             Contact
                         </a>
                     </li>
@@ -63,17 +63,17 @@ const Navbar: React.FC = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="/#projects" onClick={handleLinkClick}>
+                        <a href="/#experience" onClick={handleLinkClick}>
                             Experience
                         </a>
                     </li>
                     <li>
-                        <a href="/#experience" onClick={handleLinkClick}>
+                        <a href="/#project" onClick={handleLinkClick}>
                             Projects
                         </a>
                     </li>
                     <li>
-                        <a href="/#contact" onClick={handleLinkClick}>
+                        <a href="/#footer" onClick={handleLinkClick}>
                             Contact
                         </a>
                     </li>
