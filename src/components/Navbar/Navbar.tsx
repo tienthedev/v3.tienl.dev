@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
                         </a>
                     </li>
                     <li className="hidden-initially animate-fadeUp delay-200">
-                        <a href="/" onClick={handleLinkClick}>
+                        <a href="/#experience" onClick={handleLinkClick}>
                             Experience
                         </a>
                     </li>

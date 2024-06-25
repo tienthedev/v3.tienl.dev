@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a6568ab8-10c3-4b25-b33d-7e65088bb67b" name="Changes" comment="added 2 new elements">
+      <change beforePath="$PROJECT_DIR$/src/components/About/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Experience/Experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience/Experience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tienthedev&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tienthedev/v3.tienl.dev.git&quot;,
+    &quot;accountId&quot;: &quot;a2965f37-6a17-467a-8e14-97fce5a4f0d3&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2gAO4mFKTPMiSL13UJRp7ArLjMd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "ts.external.directory.path": "/Users/tienthedev/WebstormProjects/v3.tienl.dev/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17890.13" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6568ab8-10c3-4b25-b33d-7e65088bb67b" name="Changes" comment="" />
+      <created>1715136727673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715136727673</updated>
+      <workItem from="1715136729013" duration="133000" />
+      <workItem from="1715726697613" duration="15955000" />
+      <workItem from="1715877401160" duration="6575000" />
+      <workItem from="1715950986965" duration="4419000" />
+      <workItem from="1715969332750" duration="2439000" />
+      <workItem from="1715979684223" duration="357000" />
+      <workItem from="1715980093043" duration="2671000" />
+      <workItem from="1716075812630" duration="2070000" />
+      <workItem from="1716161170178" duration="1024000" />
+      <workItem from="1716315047478" duration="1203000" />
+      <workItem from="1716515271958" duration="424000" />
+      <workItem from="1716526136035" duration="423000" />
+      <workItem from="1719335905015" duration="2077000" />
+      <workItem from="1719337986039" duration="1432000" />
+    </task>
+    <task id="LOCAL-00001" summary="added Loader.tsx">
+      <option name="closed" value="true" />
+      <created>1715730863550</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715730863550</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added Loader.tsx">
+      <option name="closed" value="true" />
+      <created>1715731061406</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715731061406</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added Loader.tsx">
+      <option name="closed" value="true" />
+      <created>1715831557314</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715831557314</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added Loader.tsx">
+      <option name="closed" value="true" />
+      <created>1715832274740</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715832274740</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added Loader.tsx">
+      <option name="closed" value="true" />
+      <created>1715835264427</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715835264427</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added Loader.tsx">
+      <option name="closed" value="true" />
+      <created>1715835466220</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715835466220</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added Loader.tsx">
+      <option name="closed" value="true" />
+      <created>1715883992867</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715883992867</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added Loader.tsx">
+      <option name="closed" value="true" />
+      <created>1715951192697</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715951192698</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added 2 new elements">
+      <option name="closed" value="true" />
+      <created>1715952880013</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715952880013</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added 2 new elements">
+      <option name="closed" value="true" />
+      <created>1715954966962</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715954966962</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added 2 new elements">
+      <option name="closed" value="true" />
+      <created>1715957646307</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715957646307</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added 2 new elements">
+      <option name="closed" value="true" />
+      <created>1715981295859</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715981295859</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added 2 new elements">
+      <option name="closed" value="true" />
+      <created>1715981498092</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715981498092</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added 2 new elements">
+      <option name="closed" value="true" />
+      <created>1716161577716</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716161577716</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added 2 new elements">
+      <option name="closed" value="true" />
+      <created>1719335956891</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719335956891</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added Loader.tsx" />
+    <MESSAGE value="added 2 new elements" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 2 new elements" />
+  </component>
+</project>

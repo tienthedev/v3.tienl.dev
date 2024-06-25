@@ -10,10 +10,7 @@ const Projects: React.FC = () => {
             <div className="flex flex-col">
 
                 <p className="lg:text-2xl text-md text-tertiary  animate-fadeUp delay-600 hidden-initially">
-                    During my academic career, I&apos;ve seen many significant effects and usages of <span className="text-white"> Artificial Intelligent </span>in our daily lives.
-                    This observation led me to focus in the <span className="text-white"> research and development of AI, Machine Learning, and Deep Learning,</span> here at the <span className="text-white"> University of Texas in Arlington,</span> where I&apos;m currently pursing a <span className="text-white"> Bachelor of Science in Computer Science. </span>
-                    As of now, I&apos;m a third-year student, with two technology internship experiences in both fields of
-                    <span className="text-white"> automotive, aviation, airlines, and finance.</span>
+                    projects coming soon...
                 </p>
             </div>
         </div>
