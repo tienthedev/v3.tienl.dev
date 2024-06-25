@@ -5,7 +5,8 @@ import Loader from '../components/Loader/Loader';
 import Hero from '../components/Hero/Hero';
 import About from "@/components/About/About";
 import Footer from "@/components/Footer/Footer";
-
+import Experience from "@/components/Experience/Experience";
+import Projects from "@/components/Projects/Projects"
 
 const Home: React.FC = () => {
   const [loading, setLoading] = useState(true);
@@ -27,7 +28,10 @@ const Home: React.FC = () => {
         <Navbar />
         <Hero />
           <About />
-        <Footer />
+          <Experience/>
+          <Projects />
+          <Footer />
+
       </main>
   );
 };
