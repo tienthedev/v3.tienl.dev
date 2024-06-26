@@ -4,20 +4,21 @@ import { League_Spartan } from 'next/font/google';
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
-
 const leagueSpartan = League_Spartan({ subsets: ['latin'] });
+
 const Navbar: React.FC = () => {
     const [toggle, setToggle] = useState<boolean>(false);
     const handleToggle = () => setToggle(!toggle);
     const handleLinkClick = () => setToggle(false);
+
     return (
         <div className={` ${leagueSpartan.className} h-auto bg-primary flex justify-between px-5 py-5 text-white fixed w-full z-10`}>
-
-            <a href="/"
-               className={` hover:transform hover:-translate-x-1 hover:-translate-y-1 transition-transform duration-300 ease-in-out font-extrabold text-5xl text-secondary tracking-tighter animate-fadeUp`}>
+            <a
+                href="/"
+                className={`hover:transform hover:-translate-x-1 hover:-translate-y-1 transition-transform duration-300 ease-in-out font-extrabold text-5xl text-secondary tracking-tighter animate-fadeUp`}
+            >
                 tienthedev.
             </a>
-
 
             {/* Desktop Nav */}
             <nav className="desktop-nav pt-5 right-20 w-fit hidden md:block">
@@ -43,13 +44,12 @@ const Navbar: React.FC = () => {
                         </a>
                     </li>
                     <li className="hidden-initially animate-fadeUp delay-800">
-                        <a href="/" onClick={handleLinkClick}>
+                        <a href="/assets/resume.v2.pdf" target="_blank" rel="noopener noreferrer" onClick={handleLinkClick}>
                             Résume
                         </a>
                     </li>
                 </ol>
             </nav>
-
 
             <button onClick={handleToggle} className="block md:hidden z-10">
                 {!toggle ? <AiOutlineMenu size={30}/> : <AiOutlineClose size={30}/>}
@@ -78,14 +78,12 @@ const Navbar: React.FC = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="/" onClick={handleLinkClick}>
+                        <a href="/assets/resume.v2.pdf" target="_blank" rel="noopener noreferrer" onClick={handleLinkClick}>
                             Résume
                         </a>
                     </li>
                 </ol>
             </nav>
-
-
         </div>
     );
 };
