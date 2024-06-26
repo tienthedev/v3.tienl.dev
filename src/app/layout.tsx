@@ -19,9 +19,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`scroll-smooth`}>
-      <body className={jetbrains_mono.className}>{children}</body>
+      <body className={jetbrains_mono.className}>
+      {children}
       <SpeedInsights />
-        <Analytics />
+      <Analytics />
+      </body>
+
     </html>
   );
 }
