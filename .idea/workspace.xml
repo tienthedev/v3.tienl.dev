@@ -8,10 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6568ab8-10c3-4b25-b33d-7e65088bb67b" name="Changes" comment="added resume.v2.pdf">
-      <change afterPath="$PROJECT_DIR$/public/assets/resume.v2.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Experience/Experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience/Experience.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -54,6 +55,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/tienthedev/WebstormProjects/v3.tienl.dev/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -68,7 +70,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17890.13" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
       </set>
     </attachedChunks>
   </component>
@@ -95,6 +97,19 @@
       <workItem from="1719335905015" duration="2077000" />
       <workItem from="1719337986039" duration="1625000" />
       <workItem from="1719339616998" duration="172000" />
+      <workItem from="1719429242576" duration="991000" />
+      <workItem from="1719433866440" duration="233000" />
+      <workItem from="1719744627090" duration="14000" />
+      <workItem from="1724261102167" duration="3028000" />
+      <workItem from="1730597558092" duration="62000" />
+      <workItem from="1730597646631" duration="619000" />
+      <workItem from="1730997905385" duration="148000" />
+      <workItem from="1732425680029" duration="69000" />
+      <workItem from="1732425780557" duration="62000" />
+      <workItem from="1732642799183" duration="23000" />
+      <workItem from="1732642825873" duration="60000" />
+      <workItem from="1732642889783" duration="427000" />
+      <workItem from="1732661144282" duration="1802000" />
     </task>
     <task id="LOCAL-00001" summary="added Loader.tsx">
       <option name="closed" value="true" />
@@ -240,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719423733186</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added resume.v2.pdf">
+      <option name="closed" value="true" />
+      <created>1719424872171</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1719424872171</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
