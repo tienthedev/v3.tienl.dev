@@ -8,6 +8,7 @@ import Footer from "@/components/Footer/Footer";
 import Experience from "@/components/Experience/Experience";
 import Projects from "@/components/Projects/Projects"
 
+
 const Home: React.FC = () => {
   const [loading, setLoading] = useState(true);
 

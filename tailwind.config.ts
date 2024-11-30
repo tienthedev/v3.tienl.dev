@@ -21,6 +21,10 @@ const config: Config = {
         quaternary: '#000022',
       },
       keyframes: {
+        background: {
+            '0%, 100%': { backgroundPosition: '0% 50%' },
+            '50%': { backgroundPosition: '100% 50%' },
+          },
         fadeUp: {
           '0%': { opacity: '0', transform: 'translateY(30px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
@@ -38,6 +42,8 @@ const config: Config = {
         fadeDown: 'fadeDown 1s ease-out forwards',
         fadeUp: 'fadeUp 1s ease-out forwards',
         fadeOut: 'fadeOut 1s ease-out forwards',
+        border: 'background ease infinite',
+
       },
       animationDelay: {
         0: '0ms',
