@@ -8,7 +8,7 @@ const About: React.FC = () => {
         <div id={"about"}
              className={`h-screen  flex flex-col justify-center items-center text-left -tracking-wide px-10 lg:px-56 ${league_spartan.className} z-0`}>
             <div className="flex flex-col">
-                <p className="lg:text-6xl font-extrabold tracking-tighter text-md  text-secondary animate-fadeUp delay-600 hidden-initially">
+                <p className="lg:text-6xl font-extrabold tracking-tighter text-4xl  text-secondary animate-fadeUp delay-600 hidden-initially">
                     About me
                 </p>
                 <p className="lg:text-2xl text-md text-tertiary  animate-fadeUp delay-600 hidden-initially">

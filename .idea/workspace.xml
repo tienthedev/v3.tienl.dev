@@ -8,14 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6568ab8-10c3-4b25-b33d-7e65088bb67b" name="Changes" comment="added resume.v2.pdf">
-      <change afterPath="$PROJECT_DIR$/public/assets/tdhotel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Projects/projects.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/eigenface.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/irismlmodel.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Experience/Experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience/Experience.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +114,9 @@
       <workItem from="1732642825873" duration="60000" />
       <workItem from="1732642889783" duration="427000" />
       <workItem from="1732661144282" duration="6431000" />
-      <workItem from="1732925553513" duration="1837000" />
+      <workItem from="1732925553513" duration="1958000" />
+      <workItem from="1732940404834" duration="1066000" />
+      <workItem from="1733081772809" duration="2391000" />
     </task>
     <task id="LOCAL-00001" summary="added Loader.tsx">
       <option name="closed" value="true" />
