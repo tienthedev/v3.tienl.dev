@@ -13,9 +13,9 @@ const Hero: React.FC = () => {
               <h1 className={`lg:text-9xl text-7xl font-extrabold tracking-tighter text-secondary animate-fadeUp delay-200 hidden-initially `}>Tien
                   Le.</h1>
               <h1 className={`lg:text-7xl text-5xl font-bold tracking-tighter text-tertiary animate-fadeUp delay-400 hidden-initially`}>I
-                  research, and develop computer vision and machine learning models.</h1>
+                  design and craft beautiful things for the web</h1>
               <h1 className="lg:text-2xl text-md text-white  animate-fadeUp delay-600 hidden-initially">
-                  {"I'm a software developer with a background in computer science. I often research about UI/UX, as well as Artificial Intelligent methods to implement to my projects."}
+                  {"I'm a software developer with a background in computer science. I often work on fullstack apps with well developed UI/UX components, as well as building Machine Learning models."}
               </h1>
           </div>
       </div>
