@@ -13,12 +13,12 @@ const config: Config = {
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
-        primary: '#121234FF',
-        "primary-light" : '#1c1c46',
+        primary: '#2F3E46',
+        "primary-light" : '#354F52',
 
-        secondary: '#0094C6',
-        tertiary: '#005E7C',
-        quaternary: '#000022',
+        secondary: '#CAD2C5',
+        tertiary: '#84A98C',
+        quaternary: '#52796F',
       },
       keyframes: {
         background: {

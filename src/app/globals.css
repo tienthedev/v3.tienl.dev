@@ -40,31 +40,26 @@
   }
 
   body {
-    background: var(--color-primary);
-    color: #fff;
+    @apply bg-primary-light  text-white;
   }
 }
-.hidden-initially{
+
+.hidden-initially {
   opacity: 0;
 }
 
-
 .mobile-nav {
-  @apply px-20 flex justify-center items-center h-screen md:hidden fixed top-0  w-auto  bg-primary-light duration-300;
-}
-.mobile-nav li a{
-  @apply leading-loose  text-xl;
-
+  @apply px-20 flex justify-center items-center h-screen md:hidden fixed top-0 w-auto bg-primary-light duration-300;
 }
 
+.mobile-nav li a {
+  @apply leading-loose text-xl;
+}
 
 .desktop-nav li {
-  @apply mx-5  text-xs;
+  @apply mx-5 text-xs;
 }
-
 
 nav li a:hover {
   color: #FFD4D4;
 }
-
-
