@@ -29,7 +29,6 @@ const Navbar: React.FC = () => {
     return (
 
         <div className={` ${leagueSpartan.className}   text-white  `}>
-
             <div
                 className={` h-auto bg-primary flex justify-between px-5 py-5  fixed w-full z-10`}>
                 <Link
