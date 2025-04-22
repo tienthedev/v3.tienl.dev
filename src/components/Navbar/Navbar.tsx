@@ -63,30 +63,30 @@ const Navbar: React.FC = () => {
                 <nav className={!toggle ? "mobile-nav right-[-100%]" : "mobile-nav right-0"}>
                     <ol className="flex flex-col list-decimal list-inside">
                         <li>
-                            <a href="/#about" onClick={handleLinkClick}>
+                            <Link href="/#about" onClick={handleLinkClick}>
                                 About
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/#experience" onClick={handleLinkClick}>
+                            <Link href="/#experience" onClick={handleLinkClick}>
                                 Experience
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/#project" onClick={handleLinkClick}>
+                            <Link href="/#project" onClick={handleLinkClick}>
                                 Projects
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/#footer" onClick={handleLinkClick}>
+                            <Link href="/#footer" onClick={handleLinkClick}>
                                 Contact
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/assets/resume.v2.pdf" target="_blank" rel="noopener noreferrer"
+                            <Link href="/assets/resume.v2.pdf" target="_blank" rel="noopener noreferrer"
                                onClick={handleLinkClick}>
                                 Résume
-                            </a>
+                            </Link>
                         </li>
                     </ol>
                 </nav>
