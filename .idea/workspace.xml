@@ -8,17 +8,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6568ab8-10c3-4b25-b33d-7e65088bb67b" name="Changes" comment="added resume.v2.pdf">
-      <change afterPath="$PROJECT_DIR$/public/assets/TienDungLe_resume.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/eigenface.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/irismlmodel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tdhotel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/About.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hero/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/Hero.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +142,7 @@
       <workItem from="1745292907421" duration="456000" />
       <workItem from="1745293393109" duration="7000" />
       <workItem from="1745293406607" duration="2859000" />
-      <workItem from="1745297402155" duration="4255000" />
+      <workItem from="1745297402155" duration="4378000" />
     </task>
     <task id="LOCAL-00001" summary="added Loader.tsx">
       <option name="closed" value="true" />

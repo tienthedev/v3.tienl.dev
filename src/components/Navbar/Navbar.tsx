@@ -74,6 +74,8 @@ const Navbar: React.FC = () => {
                         </li>
                     </ol>
                 </nav>
+                </motion.section>
+
 
                 <button onClick={handleToggle} className="block md:hidden z-10">
                     {!toggle ? <AiOutlineMenu size={30}/> : <AiOutlineClose size={30}/>}
@@ -110,7 +112,6 @@ const Navbar: React.FC = () => {
                     </ol>
 
                 </nav>
-                </motion.section>
 
             </div>
         </div>
