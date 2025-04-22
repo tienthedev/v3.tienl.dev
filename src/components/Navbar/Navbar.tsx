@@ -17,12 +17,12 @@ const Navbar: React.FC = () => {
 
             <div
                 className={` h-auto bg-primary flex justify-between px-5 py-5  fixed w-full z-10`}>
-                <a
+                <Link
                     href="/"
                     className={`hover:transform hover:-translate-x-1 hover:-translate-y-1 transition-transform duration-300 ease-in-out font-extrabold text-5xl text-secondary tracking-tighter animate-fadeUp`}
                 >
                     tienthedev.
-                </a>
+                </Link>
 
                 {/* Desktop Nav */}
                 <nav className="desktop-nav pt-5 right-20 w-fit hidden md:block">
