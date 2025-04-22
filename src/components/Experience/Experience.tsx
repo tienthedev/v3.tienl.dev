@@ -23,7 +23,7 @@ const Experience: React.FC = () => {
                         <h3 className="flex items-center mb-1 text-lg font-medium text-white">
                             Automation Technology Analyst @ Southwest Airlines
                             <span
-                                className="bg-blue-100 text-blue-800 text-sm font-medium  px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">
+                                className="bg-blue-100 text-blue-800 text-sm font-medium  px-2.5 py-0.5 rounded-sm dark:bg-blue-900 dark:text-blue-300 ml-3">
                                 Recent
                             </span>
                         </h3>
