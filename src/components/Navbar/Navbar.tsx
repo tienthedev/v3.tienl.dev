@@ -4,16 +4,31 @@ import Link from 'next/link'
 import { League_Spartan } from 'next/font/google';
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { motion, Variants } from 'framer-motion';
 
 const leagueSpartan = League_Spartan({ subsets: ['latin'] });
 
+
+const fadeDownVariants: Variants = {
+    hidden: { opacity: 0, y: -20 },
+    visible: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 0.6,
+            ease: 'easeOut',
+            delay: 0,        // you can override this via props
+        },
+    },
+}
 const Navbar: React.FC = () => {
     const [toggle, setToggle] = useState<boolean>(false);
     const handleToggle = () => setToggle(!toggle);
     const handleLinkClick = () => setToggle(false);
 
     return (
-        <div                 className={` ${leagueSpartan.className}   text-white  `}>
+
+        <div className={` ${leagueSpartan.className}   text-white  `}>
 
             <div
                 className={` h-auto bg-primary flex justify-between px-5 py-5  fixed w-full z-10`}>
@@ -23,32 +38,36 @@ const Navbar: React.FC = () => {
                 >
                     tienthedev.
                 </Link>
-
+                <motion.section
+                    variants={fadeDownVariants}
+                    initial="hidden"
+                    animate="visible"
+                >
                 {/* Desktop Nav */}
                 <nav className="desktop-nav pt-5 right-20 w-fit hidden md:block">
                     <ol className="flex list-decimal">
-                        <li className="hidden-initially animate-fadeUp delay-0 scroll-smooth">
+                        <li className=" animate-fadeUp delay-0 scroll-smooth">
                             <Link href="/#about" onClick={handleLinkClick}>
                                 About
                             </Link>
                         </li>
-                        <li className="hidden-initially animate-fadeUp delay-200">
+                        <li className=" animate-fadeUp delay-200">
                             <Link href="/#experience" onClick={handleLinkClick}>
                                 Experience
                             </Link>
                         </li>
-                        <li className="hidden-initially animate-fadeUp delay-400">
+                        <li className=" animate-fadeUp delay-400">
                             <Link href="/#project" onClick={handleLinkClick}>
                                 Projects
                             </Link>
                         </li>
-                        <li className="hidden-initially animate-fadeUp delay-600">
+                        <li className=" animate-fadeUp delay-600">
                             <Link href="/#footer" onClick={handleLinkClick}>
                                 Contact
                             </Link>
                         </li>
-                        <li className="hidden-initially animate-fadeUp delay-800">
-                            <Link href="/assets/resume.v2.pdf" target="_blank" rel="noopener noreferrer"
+                        <li className=" animate-fadeUp delay-800">
+                            <Link href="/assets/TienDungLe_resume.pdf" target="_blank" rel="noopener noreferrer"
                                onClick={handleLinkClick}>
                                 Résume
                             </Link>
@@ -83,23 +102,18 @@ const Navbar: React.FC = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/assets/resume.v2.pdf" target="_blank" rel="noopener noreferrer"
+                            <Link href="/assets/TienDungLe_resume.pdf" target="_blank" rel="noopener noreferrer"
                                onClick={handleLinkClick}>
                                 Résume
                             </Link>
                         </li>
                     </ol>
+
                 </nav>
+                </motion.section>
 
             </div>
-            {/* This div contains a rotated email address that is fixed on the right side of the screen, visible only on large screens
-<div className={`rotate-90 top-96 fixed -right-10 hidden lg:block z-10`}>
-    <p className="">____________ tienthedev@icloud.com ____________</p>
-</div>
-*/}
         </div>
-
-
     );
 };
 
