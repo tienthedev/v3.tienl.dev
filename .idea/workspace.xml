@@ -9,13 +9,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a6568ab8-10c3-4b25-b33d-7e65088bb67b" name="Changes" comment="added resume.v2.pdf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/eigenface.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/irismlmodel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/resume.v2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/tdhotel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Loader/Loader.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +140,7 @@
       <workItem from="1745292844371" duration="27000" />
       <workItem from="1745292907421" duration="456000" />
       <workItem from="1745293393109" duration="7000" />
-      <workItem from="1745293406607" duration="1144000" />
+      <workItem from="1745293406607" duration="1748000" />
     </task>
     <task id="LOCAL-00001" summary="added Loader.tsx">
       <option name="closed" value="true" />

@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link'
 import { League_Spartan } from 'next/font/google';
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
@@ -27,30 +28,30 @@ const Navbar: React.FC = () => {
                 <nav className="desktop-nav pt-5 right-20 w-fit hidden md:block">
                     <ol className="flex list-decimal">
                         <li className="hidden-initially animate-fadeUp delay-0 scroll-smooth">
-                            <a href="/#about" onClick={handleLinkClick}>
+                            <Link href="/#about" onClick={handleLinkClick}>
                                 About
-                            </a>
+                            </Link>
                         </li>
                         <li className="hidden-initially animate-fadeUp delay-200">
-                            <a href="/#experience" onClick={handleLinkClick}>
+                            <Link href="/#experience" onClick={handleLinkClick}>
                                 Experience
-                            </a>
+                            </Link>
                         </li>
                         <li className="hidden-initially animate-fadeUp delay-400">
-                            <a href="/#project" onClick={handleLinkClick}>
+                            <Link href="/#project" onClick={handleLinkClick}>
                                 Projects
-                            </a>
+                            </Link>
                         </li>
                         <li className="hidden-initially animate-fadeUp delay-600">
-                            <a href="/#footer" onClick={handleLinkClick}>
+                            <Link href="/#footer" onClick={handleLinkClick}>
                                 Contact
-                            </a>
+                            </Link>
                         </li>
                         <li className="hidden-initially animate-fadeUp delay-800">
-                            <a href="/assets/resume.v2.pdf" target="_blank" rel="noopener noreferrer"
+                            <Link href="/assets/resume.v2.pdf" target="_blank" rel="noopener noreferrer"
                                onClick={handleLinkClick}>
                                 Résume
-                            </a>
+                            </Link>
                         </li>
                     </ol>
                 </nav>
