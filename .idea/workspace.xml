@@ -10,7 +10,6 @@
     <list default="true" id="a6568ab8-10c3-4b25-b33d-7e65088bb67b" name="Changes" comment="added resume.v2.pdf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Experience/Experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience/Experience.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hero/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/Hero.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +146,7 @@
       <workItem from="1745293406607" duration="2859000" />
       <workItem from="1745297402155" duration="6122000" />
       <workItem from="1745424091282" duration="918000" />
-      <workItem from="1745425019462" duration="1109000" />
+      <workItem from="1745425019462" duration="2023000" />
     </task>
     <task id="LOCAL-00001" summary="added Loader.tsx">
       <option name="closed" value="true" />

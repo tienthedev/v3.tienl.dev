@@ -11,7 +11,7 @@ const Experience: React.FC = () => {
             className={`h-fit pb-20 flex flex-col justify-center items-center text-left -tracking-wide px-10 lg:px-56 ${leagueSpartan.className} z-0`}
         >
             <div className="div flex flex-col">
-                <p id="experience"  className="pb-2 lg:text-6xl font-extrabold tracking-tighter text-4xl  text-secondary ">
+                <p id="experience"  className="pb-2 lg:text-6xl font-extrabold tracking-tight text-4xl  text-secondary ">
                     Experience
                 </p>
                 <ol className="relative border-l mx-5 border-white ">

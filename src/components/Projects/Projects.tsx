@@ -28,17 +28,31 @@ const projects: Project[] = [
     },
     {
         title: "Iris Decision Tree Classification",
-        date: "June 2023",
+        date: "June 2024",
         tags: ["TensorFlow", "Python", "DecisionTree", "Machine Learning", "Matplotlib"],
         img: "/assets/irismlmodel.png",
         description: "Build, train, and evaluate a Decision Tree classifier with the Iris dataset. Visualize decision boundaries and make predictions on new data.",
     },
     {
-        title: "Gradient Descent in Perceptrons Training",
-        date: "June 2023",
+        title: "Gradient Descent in Perceptrons and Neural Network Training",
+        date: "Jan 2025",
         tags: ["Linear Algebra", "Python", "Gradient Descent", "NumPy"],
-        img: "/assets/irismlmodel.png",
+        img: "/assets/gradient.png",
         description: "Computing the output of perceptrons and neural networks using gradient descent. Implemented in Python with NumPy.",
+    },
+    {
+        title: "Backpropagation in Neural Network Training",
+        date: "Jan 2025",
+        tags: ["Linear Algebra", "Python", "Backpropagation", "NumPy"],
+        img: "/assets/backpropagation.png",
+        description: "Implemented backpropagation algorithm for training neural networks. Utilized NumPy for matrix operations.",
+    },
+    {
+        title: "Keras and Convolutional Neural Network Training",
+        date: "Feb 2025",
+        tags: ["Linear Algebra", "Python", "Backpropagation", "Gradient Descent", "TensorFlow", "Keras", "NumPy"],
+        img: "/assets/keras.png",
+        description: "Trained a neural network using Keras with TensorFlow backend. Implemented backpropagation and gradient descent for optimization.",
     },
 
 ];
@@ -50,8 +64,8 @@ const Projects: React.FC = () => {
             className={`h-fit pb-20 flex flex-col justify-center items-center text-left px-10 lg:px-56 ${leagueSpartan.className} z-0`}
         >
             <div className="flex flex-col">
-                <p className="pb-2 lg:text-6xl font-extrabold tracking-tighter text-4xl text-secondary animate-fadeUp delay-600">
-                    Projects
+                <p className="pb-2 lg:text-6xl font-extrabold tracking-tight text-4xl text-secondary animate-fadeUp delay-600">
+                    Featured Projects
                 </p>
 
                 <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 auto-rows-fr">
