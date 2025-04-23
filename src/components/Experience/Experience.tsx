@@ -7,11 +7,11 @@ const leagueSpartan = League_Spartan({ subsets: ['latin'] });
 const Experience: React.FC = () => {
     return (
         <div
-            id="experience"
+
             className={`h-fit pb-20 flex flex-col justify-center items-center text-left -tracking-wide px-10 lg:px-56 ${leagueSpartan.className} z-0`}
         >
             <div className="div flex flex-col">
-                <p className="pb-2 lg:text-6xl font-extrabold tracking-tighter text-4xl  text-secondary ">
+                <p id="experience"  className="pb-2 lg:text-6xl font-extrabold tracking-tighter text-4xl  text-secondary ">
                     Experience
                 </p>
                 <ol className="relative border-l mx-5 border-white ">
@@ -22,10 +22,7 @@ const Experience: React.FC = () => {
                         </span>
                         <h3 className="flex items-center mb-1 text-lg font-medium text-white">
                             Automation Technology Analyst @ Southwest Airlines
-                            <span
-                                className="bg-blue-100 text-blue-800 text-sm font-medium  px-2.5 py-0.5 rounded-sm dark:bg-blue-900 dark:text-blue-300 ml-3">
-                                Recent
-                            </span>
+
                         </h3>
                         <time className="block mb-2 text-sm font-normal leading-none text-tertiary">
                             Internship, January 2024 - May 2024

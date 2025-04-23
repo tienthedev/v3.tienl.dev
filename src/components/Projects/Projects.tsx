@@ -1,5 +1,5 @@
 import React from "react";
-import { League_Spartan } from "next/font/google";
+import {League_Spartan} from "next/font/google";
 
 interface Project {
     title: string;
@@ -9,7 +9,7 @@ interface Project {
     description: string;
 }
 
-const leagueSpartan = League_Spartan({ subsets: ["latin"] });
+const leagueSpartan = League_Spartan({subsets: ["latin"]});
 
 const projects: Project[] = [
     {
@@ -22,7 +22,7 @@ const projects: Project[] = [
     {
         title: "Full-Stack Hotel Booking App",
         date: "March 2023",
-        tags: ["React", "Node.js", "Tailwind CSS"],
+        tags: ["React", "NextJS", "Tailwind CSS", "OpenAuth", "MongoDB", "SanityIO"],
         img: "/assets/tdhotel.png",
         description: "Developed a responsive hotel booking platform with animated UI elements.",
     },
@@ -34,9 +34,9 @@ const projects: Project[] = [
         description: "Build, train, and evaluate a Decision Tree classifier with the Iris dataset. Visualize decision boundaries and make predictions on new data.",
     },
     {
-        title: "Gradient Descent in Perceptrons and Neural Network Training",
+        title: "Gradient Descent in Perceptrons Training",
         date: "June 2023",
-        tags: ["Calculus", "Python", "Gradient Descent", "NumPy"],
+        tags: ["Linear Algebra", "Python", "Gradient Descent", "NumPy"],
         img: "/assets/irismlmodel.png",
         description: "Computing the output of perceptrons and neural networks using gradient descent. Implemented in Python with NumPy.",
     },
@@ -84,13 +84,12 @@ const Projects: React.FC = () => {
                                             key={idx}
                                             className="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
                                         >
-          {tag}
-        </span>
+                                            {tag}
+                                        </span>
                                     ))}
                                 </div>
                             </div>
                         </article>
-
                     ))}
                 </div>
             </div>
