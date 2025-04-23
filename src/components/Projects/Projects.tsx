@@ -34,7 +34,7 @@ const projects: Project[] = [
         description: "Build, train, and evaluate a Decision Tree classifier with the Iris dataset. Visualize decision boundaries and make predictions on new data.",
     },
     {
-        title: "Gradient Descent in Perceptions Training",
+        title: "Gradient Descent in Perceptrons and Neural Network Training",
         date: "June 2023",
         tags: ["Calculus", "Python", "Gradient Descent", "NumPy"],
         img: "/assets/irismlmodel.png",
