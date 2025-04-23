@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
                     href="/"
                     className={`hover:transform hover:-translate-x-1 hover:-translate-y-1 transition-transform duration-300 ease-in-out font-extrabold text-5xl text-secondary tracking-tighter animate-fadeUp`}
                 >
-                    tienthedev.
+                    TD.
                 </Link>
                 <motion.section
                     variants={fadeDownVariants}

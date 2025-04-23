@@ -33,11 +33,15 @@ const Hero: React.FC = () => {
               <h1 className={`lg:text-lg text-md text-white font-thin  ${jetbrains_mono.className}`}>Hi, my name is</h1>
               <h1 className={`lg:text-9xl text-7xl font-extrabold tracking-tight text-secondary  `}>Tien
                   Le.</h1>
-              <h1 className={`lg:text-7xl text-5xl font-bold tracking-tight text-tertiary  `}>I
-                  design and craft beautiful things for the web</h1>
+              <h1 className={`lg:text-7xl text-5xl font-bold tracking-tight text-tertiary  `}>
+                  I design and craft beautiful things for the web</h1>
               <h1 className="lg:text-2xl text-md text-white  ">
-                  {"I'm a software developer with a background in computer science. Beside full-stack development, I often research and build DL & ML models."}
+                  Email: tienthedev@icloud.com
               </h1>
+              <h1 className="lg:text-2xl text-md text-white  ">
+                  GitHub: tienthedev
+              </h1>
+
           </div>
       </div>
         </motion.section>
