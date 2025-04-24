@@ -148,11 +148,12 @@ const Projects: React.FC = () => {
 
                     <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 auto-rows-fr">
                         {displayProjects.map((project, index) => (
-                            <article
-                                key={index}
-                                className="group hover:-translate-y-3 rounded-xl bg-linear-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-xs hover:[animation-duration:_4s] flex flex-col h-full"
-                            >
-                                <a href={project.link} target="_blank">
+
+                            <a href={project.link} target="_blank">
+                                <article
+                                    key={index}
+                                    className="group hover:-translate-y-3 rounded-xl bg-linear-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-xs hover:[animation-duration:_4s] flex flex-col h-full"
+                                >
                                     <div className="rounded-[10px] bg-white p-4 sm:p-6 flex flex-col h-full">
                                         <div className="relative w-full h-40 mb-4 rounded-lg overflow-hidden">
                                             <Image
@@ -185,8 +186,8 @@ const Projects: React.FC = () => {
                                             ))}
                                         </div>
                                     </div>
-                                </a>
-                            </article>
+                                </article>
+                            </a>
                         ))}
                     </div>
                 </div>
