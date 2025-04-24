@@ -28,12 +28,15 @@ const Hero: React.FC = () => {
             <div id={"hero"}
                  className={`h-screen  flex flex-col justify-center items-center text-left -tracking-wide px-10 lg:px-56 ${league_spartan.className} z-0`}>
                 <div className="flex flex-col">
-                    <h1 className={`lg:text-lg text-md text-white font-thin  ${jetbrains_mono.className}`}>Hi, my name
-                        is</h1>
-                    <h1 className={`lg:text-9xl text-7xl font-extrabold tracking-tight text-secondary  `}>Tien
-                        Le.</h1>
-                    <h1 className={`lg:text-7xl text-5xl font-bold tracking-tight text-tertiary  `}>
-                        I design and craft beautiful things for the web</h1>
+                    <h1 className={`lg:text-lg text-md text-white font-thin  ${jetbrains_mono.className}`}>
+                        Hi, my name is
+                    </h1>
+                    <h1 className={`lg:text-9xl text-7xl font-extrabold tracking-tight text-secondary  `}>
+                        Tien Le.
+                    </h1>
+                    <h1 className={`lg:text-7xl text-3xl font-bold tracking-tight text-tertiary  `}>
+                        I study and research AI, Machine & Deep Learning, Computer Vision topics. While crafting beautiful things for the web.
+                    </h1>
                     <h1 className="lg:text-2xl text-md text-white  ">
                         Email: tienthedev@icloud.com
                     </h1>
