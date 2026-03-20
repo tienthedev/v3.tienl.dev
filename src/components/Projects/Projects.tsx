@@ -20,7 +20,7 @@ const projects: Project[] = [
         tags: ["OpenCV", "Python"],
         img: "/assets/eigenface.png",
         description: "Implemented Eigenface algorithm for facial recognition using OpenCV and Python.",
-        link: "https://github.com/tienthedev/IrisDecisionTreeModel"
+        link: "https://github.com/tienthedev/Eigenfaces"
     },
     {
         title: "Full-Stack Hotel Booking App",
@@ -28,7 +28,25 @@ const projects: Project[] = [
         tags: ["React", "NextJS", "Tailwind CSS", "OpenAuth", "MongoDB", "SanityIO"],
         img: "/assets/tdhotel.png",
         description: "Developed a responsive hotel booking platform with animated UI elements.",
-        link: "https://github.com/tienthedev/IrisDecisionTreeModel"
+        link: "https://github.com/tienthedev/tdhotelmanagement"
+
+    },
+    {
+        title: "Belly Buddy - Health Tracking Android Application",
+        date: "August 2025",
+        tags: ["Kotlin", "Jetpack Compose", "Android Studio", "Jetpack Room Database"],
+        img: "/assets/bellybuddy.png",
+        description: "Developed a dynamic Android health tracking application for GI patient.",
+        link: "https://github.com/tienthedev/BellyBuddy"
+
+    },
+    {
+        title: "UTA Maverick Market",
+        date: "January 2026",
+        tags: ["React", "NextJS", "Tailwind CSS", "OpenAuth", "Supabase Database", "SanityIO"],
+        img: "/assets/maverick.png",
+        description: "Developed a dynamic Android health tracking application for GI patient.",
+        link: "https://maverickmarket.vercel.app/"
 
     },
     {

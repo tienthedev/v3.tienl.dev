@@ -5,6 +5,7 @@ import { League_Spartan } from 'next/font/google';
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { motion, Variants } from 'framer-motion';
+import { SectionKey } from '@/types/sections';
 
 const leagueSpartan = League_Spartan({ subsets: ['latin'] });
 
@@ -21,10 +22,23 @@ const fadeDownVariants: Variants = {
         },
     },
 }
-const Navbar: React.FC = () => {
+
+type NavbarProps = {
+    onNavigate: (section: SectionKey) => void;
+    activeSection: SectionKey;
+};
+
+const Navbar: React.FC<NavbarProps> = ({ onNavigate, activeSection }) => {
     const [toggle, setToggle] = useState<boolean>(false);
     const handleToggle = () => setToggle(!toggle);
     const handleLinkClick = () => setToggle(false);
+    const handleNavigate = (section: SectionKey) => {
+        onNavigate(section);
+        setToggle(false);
+    };
+
+    const navItemClass = (section: SectionKey) =>
+        `text-white underline-offset-4 transition-all duration-200 ${activeSection === section ? 'underline' : 'no-underline hover:underline'}`;
 
     return (
 
@@ -46,24 +60,24 @@ const Navbar: React.FC = () => {
                 <nav className="desktop-nav pt-5 right-20 w-fit hidden md:block">
                     <ol className="flex list-decimal">
                         <li className=" animate-fadeUp delay-0 scroll-smooth">
-                            <Link href="/#about" onClick={handleLinkClick}>
+                            <button type="button" className={navItemClass('hero')} onClick={() => handleNavigate('hero')}>
                                 About
-                            </Link>
+                            </button>
                         </li>
                         <li className=" animate-fadeUp delay-200">
-                            <Link href="/#experience" onClick={handleLinkClick}>
+                            <button type="button" className={navItemClass('experience')} onClick={() => handleNavigate('experience')}>
                                 Experience
-                            </Link>
+                            </button>
                         </li>
                         <li className=" animate-fadeUp delay-400">
-                            <Link href="/#project" onClick={handleLinkClick}>
+                            <button type="button" className={navItemClass('projects')} onClick={() => handleNavigate('projects')}>
                                 Projects
-                            </Link>
+                            </button>
                         </li>
                         <li className=" animate-fadeUp delay-600">
-                            <Link href="/#footer" onClick={handleLinkClick}>
+                            <button type="button" className={navItemClass('contact')} onClick={() => handleNavigate('contact')}>
                                 Contact
-                            </Link>
+                            </button>
                         </li>
                         <li className=" animate-fadeUp delay-800">
                             <Link href="/assets/TienDungLe_resume.pdf" target="_blank" rel="noopener noreferrer"
@@ -83,24 +97,24 @@ const Navbar: React.FC = () => {
                 <nav className={!toggle ? "mobile-nav right-[-100%]" : "mobile-nav right-0"}>
                     <ol className="flex flex-col list-decimal list-inside">
                         <li>
-                            <Link href="/#about" onClick={handleLinkClick}>
+                            <button type="button" className={navItemClass('hero')} onClick={() => handleNavigate('hero')}>
                                 About
-                            </Link>
+                            </button>
                         </li>
                         <li>
-                            <Link href="/#experience" onClick={handleLinkClick}>
+                            <button type="button" className={navItemClass('experience')} onClick={() => handleNavigate('experience')}>
                                 Experience
-                            </Link>
+                            </button>
                         </li>
                         <li>
-                            <Link href="/#project" onClick={handleLinkClick}>
+                            <button type="button" className={navItemClass('projects')} onClick={() => handleNavigate('projects')}>
                                 Projects
-                            </Link>
+                            </button>
                         </li>
                         <li>
-                            <Link href="/#footer" onClick={handleLinkClick}>
+                            <button type="button" className={navItemClass('contact')} onClick={() => handleNavigate('contact')}>
                                 Contact
-                            </Link>
+                            </button>
                         </li>
                         <li>
                             <Link href="/assets/TienDungLe_resume.pdf" target="_blank" rel="noopener noreferrer"

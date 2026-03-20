@@ -1,6 +1,8 @@
 import React from 'react';
 import { League_Spartan } from 'next/font/google';
 import { SiSouthwestairlines, SiGeneralmotors } from 'react-icons/si';
+import { MdSchool } from "react-icons/md";
+import { PiCity } from "react-icons/pi";
 
 const leagueSpartan = League_Spartan({ subsets: ['latin'] });
 
@@ -18,6 +20,67 @@ const Experience: React.FC = () => {
                     <li className="mb-10 ml-10">
                         <span
                             className="absolute flex items-center justify-center w-6 h-6 bg-white text-blue-600 rounded-full -left-3 ring-8 ring-white">
+                            <MdSchool/>
+                        </span>
+                        <h3 className="flex items-center mb-1 text-lg font-medium text-white">
+                            Data Analyst @ Dallas College
+
+                        </h3>
+                        <time className="block mb-2 text-sm font-normal leading-none text-tertiary">
+                            Internship, January 2026 - May 2026
+                        </time>
+                        <ul className="mb-4 text-base font-normal text-gray-300 list-disc dark:text-gray-200">
+                            <li>
+                                Engineered SAS programs to process 50K+ student enrollment records per quarter, improving data accuracy by
+                                25% and reducing scheduling conflicts by 15%.
+                            </li>
+                            <li>
+                                Built automated data validation routines identifying 2,000+ discrepancies in scheduling datasets, ensuring
+                                FERPA compliance and achieving 98% data quality for institutional reporting.
+                            </li>
+                            <li>
+                                Developed a production Power BI dashboard using SQL, Python, and Azure to track 3 KPIs (productivity,
+                                accuracy, performance) across 200K+ work requests, enabling managers to make data-driven staffing decisions.
+                            </li>
+                            <li>
+                                Migrated legacy SAS scripts to Python, streamlining end-to-end data pipelines and ensuring full
+                                compatibility with Microsoft Fabric Lakehouse for scalable, cloud-native analytics.
+                            </li>
+                        </ul>
+                    </li>
+                    <li className="mb-10 ml-10">
+                        <span
+                            className="absolute flex items-center justify-center w-6 h-6 bg-white text-blue-600 rounded-full -left-3 ring-8 ring-white">
+                            <PiCity/>
+                        </span>
+                        <h3 className="flex items-center mb-1 text-lg font-medium text-white">
+                            Records Analyst @ The City of Alvarado, Texas
+
+                        </h3>
+                        <time className="block mb-2 text-sm font-normal leading-none text-tertiary">
+                            Internship, January 2026 - May 2026
+                        </time>
+                        <ul className="mb-4 text-base font-normal text-gray-300 list-disc dark:text-gray-200">
+                            <li>
+                                Assist City Secretary in managing official municipal records and maintaining compliance with records retention policies
+                            </li>
+                            <li>
+                                Digitalize physical and historical documents into Laserfiche for long-term municipal recordkeeping
+                            </li>
+                            <li>
+                                Led end-to-end digitization project for historical construction drawings and plans, managing full procurement lifecycle independently
+                            </li>
+                            <li>
+                                Sourced and evaluated vendors, gathered competitive quotes ranging $25K–$40K, and negotiated final contract to $20K — $5K under the $25K budget
+                            </li>
+                            <li>
+                                Conducted physical document inventory to define project scope and inform vendor estimates, directly enabling below-budget outcome
+                            </li>
+                        </ul>
+                    </li>
+                    <li className="mb-10 ml-10">
+                        <span
+                            className="absolute flex items-center justify-center w-6 h-6 bg-white text-blue-600 rounded-full -left-3 ring-8 ring-white">
                             <SiSouthwestairlines/>
                         </span>
                         <h3 className="flex items-center mb-1 text-lg font-medium text-white">
@@ -27,19 +90,18 @@ const Experience: React.FC = () => {
                         <time className="block mb-2 text-sm font-normal leading-none text-tertiary">
                             Internship, January 2024 - May 2024
                         </time>
-                        <ul className="mb-4 text-base font-normal text-gray-500 list-disc dark:text-gray-400">
+                        <ul className="mb-4 text-base font-normal text-gray-300 list-disc dark:text-gray-200">
                             <li>
-                                Conducted comprehensive automation testing on incoming in-flight functionalities for
-                                Crew Scheduling System.
+                                Authored 100+ automated test scripts using Cucumber Gherkin and Java, deployed via Docker Compose
+                                for end-to-end certification testing, ensuring 100% requirement coverage before production release.
                             </li>
                             <li>
-                                Collaborated closely with business partners to define and incorporate requirements with
-                                FICO Blaze Advisor rulings into thousands of user stories, allowing consistent and
-                                accurate test results.
+                                Integrated FICO Blaze Advisor business rules into thousands of user stories for the Crew Scheduling
+                                System, driving consistent and accurate test outcomes across all scenarios.
                             </li>
                             <li>
-                                Facilitated seamless migration to a new testing framework, streamlining testing
-                                processes and improving the team’s overall efficiency by 40%.
+                                Led full framework migration to a modernized testing platform, streamlining QA workflows and boosting
+                                team efficiency by 40%.
                             </li>
                             <li>
                                 Architected and implemented detailed user stories using Cucumber Gherkin and deployed
@@ -59,7 +121,7 @@ const Experience: React.FC = () => {
                         <time className="block mb-2 text-sm font-normal leading-none text-tertiary">
                             Internship, October 2021 - August 2022
                         </time>
-                        <ul className="mb-4 text-base font-normal text-gray-500 list-disc dark:text-gray-400">
+                        <ul className="mb-4 text-base font-normal text-gray-300 list-disc dark:text-gray-200">
                             <li>
                                 Conducted front-end unit testing for Mode by GM Financial, using Angular, C#,
                                 TypeScript, and .NET Maui, ensuring optimal performance with a high-volume cloud
