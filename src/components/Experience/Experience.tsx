@@ -48,36 +48,7 @@ const Experience: React.FC = () => {
                             </li>
                         </ul>
                     </li>
-                    <li className="mb-10 ml-10">
-                        <span
-                            className="absolute flex items-center justify-center w-6 h-6 bg-white text-blue-600 rounded-full -left-3 ring-8 ring-white">
-                            <PiCity/>
-                        </span>
-                        <h3 className="flex items-center mb-1 text-lg font-medium text-white">
-                            Records Analyst @ The City of Alvarado, Texas
-
-                        </h3>
-                        <time className="block mb-2 text-sm font-normal leading-none text-tertiary">
-                            Internship, January 2026 - May 2026
-                        </time>
-                        <ul className="mb-4 text-base font-normal text-gray-300 list-disc dark:text-gray-200">
-                            <li>
-                                Assist City Secretary in managing official municipal records and maintaining compliance with records retention policies
-                            </li>
-                            <li>
-                                Digitalize physical and historical documents into Laserfiche for long-term municipal recordkeeping
-                            </li>
-                            <li>
-                                Led end-to-end digitization project for historical construction drawings and plans, managing full procurement lifecycle independently
-                            </li>
-                            <li>
-                                Sourced and evaluated vendors, gathered competitive quotes ranging $25K–$40K, and negotiated final contract to $20K — $5K under the $25K budget
-                            </li>
-                            <li>
-                                Conducted physical document inventory to define project scope and inform vendor estimates, directly enabling below-budget outcome
-                            </li>
-                        </ul>
-                    </li>
+                    
                     <li className="mb-10 ml-10">
                         <span
                             className="absolute flex items-center justify-center w-6 h-6 bg-white text-blue-600 rounded-full -left-3 ring-8 ring-white">
